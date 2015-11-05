@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560.mp4 | Popcorn Time Player by ssplayer</title>
+<link href="assets/css/ssplayer.min.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="assets/images/popcorntime.ico">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="assets/js/ssplayer.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">
+$(function(){
+	$("#ssvideo").ssplayer({
+		iframe : true,
+		share: true,
+		logo: {
+			title: "Popcorn Time Player",
+			src: "assets/images/local-icon.png",
+			href: "http://browserpopcorn.com.br/",
+			target: "blank",
+			position: "bottom-right",
+			shape: "square"
+		},
+		subtitle: {
+				default: "en",
+				pt: {
+					label: "Portugues",
+					src: "http://localhost/embed/subtitle/the-flash/br/8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560.srt",
+				},
+				en: {
+					label: "English",
+					src: "http://localhost/embed/subtitle/the-flash/en/8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560.srt",
+				}
+		},
+		quality: {
+		    default: "360p",
+		   	"720p": "https://dl.dropboxusercontent.com/s/4pjzwnmlq4xlvsj/8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560-720p.mp4",
+		   	"480p": "https://dl.dropboxusercontent.com/s/q3indt2qmmbv69x/8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560-480p.mp4",
+		   	"360p": "https://dl.dropboxusercontent.com/s/lk5x2zim006g35t/8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560-360p.mp4",
+		    
+		}
+	});
+});
+</script>
+</head>
+
+<body>
+<video id="ssvideo" src="https://dl.dropboxusercontent.com/s/lk5x2zim006g35t/8c8085cf5c8e949bfdd1e276b6b2e4c2e3df3560-360p.mp4"></video>
+</body>
+</html>
